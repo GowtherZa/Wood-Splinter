@@ -7,7 +7,6 @@ $success: #9F7C65;
 
 @import "./bulma.sass";
 
-
 p {
     font-weight:normal;
     font-style:normal;
@@ -58,9 +57,9 @@ h2{
 
 .title{
   font-size: 75px;
+  text-shadow: 2px 2px 3px #000;
+  opacity: 0.75;
 }
-
-
 
 .triangles{
   width: 0;
@@ -75,8 +74,43 @@ h2{
 }
 
 .service-header{
-    font-size: 35px;
+    font-size: 55px;
 }
+
+.flags-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.redes-sociales{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+// .image{
+//   margin: 0px;
+// }
+
+iframe{
+  width: 100%!important;
+  height: 100% !important;
+  overflow: visible;
+  margin: 5px;
+  padding: 5px;
+}
+
 
 .flag{
   width: 30px;
@@ -110,6 +144,5 @@ h2{
   hsl(38deg 14% 33%) 88%
 );
 }
-
 
 

@@ -10,4 +10,9 @@
     .triangles{
         display:none;
     }
+
+    .p-card{
+        width: 240px;
+        height: 320px;
+    }
 }
