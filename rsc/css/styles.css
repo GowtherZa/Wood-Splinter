@@ -10323,6 +10323,10 @@ h2 {
   font-size: 35px;
 }
 
+.map {
+  height: 300px;
+}
+
 .main-box {
   width: 30%;
   margin: auto;
@@ -10425,8 +10429,6 @@ iframe {
 }
 
 .flag {
-  width: 30px;
-  height: 30px;
   padding: 5px;
 }
 
