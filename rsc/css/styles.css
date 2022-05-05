@@ -10306,16 +10306,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 p {
-  font-family: "Montserrat-VariableFont_wght";
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  font-family: "JosefinSans-VariableFont_wght";
-  text-decoration: underline;
-  font-style: oblique;
+  font-family: "Open Sans", sans-serif;
   font-size: 45px;
 }
 
@@ -10362,7 +10360,7 @@ h2 {
   height: 0;
   border-style: solid;
   border-width: 40px 35px 0 35px;
-  border-color: #dadcde transparent transparent transparent;
+  border-color: #FFFFFF transparent transparent transparent;
 }
 
 .shadow {
@@ -10379,8 +10377,8 @@ h2 {
   padding: 5px;
 }
 
-.service-1 {
-  width: 90%;
+.service {
+  width: 100%;
   margin: auto;
 }
 
