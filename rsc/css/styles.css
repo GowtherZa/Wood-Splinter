@@ -10394,6 +10394,28 @@ h2 {
   width: 100%;
 }
 
+.carousel-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-desc {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navs {
+  margin: 15px;
+}
+
+.image {
+  margin: 10px;
+}
+
 iframe {
   width: 100% !important;
   height: 100% !important;
