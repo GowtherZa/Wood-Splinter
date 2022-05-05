@@ -1,0 +1,13 @@
+@media (max-width:900px) {
+    .main-box{
+        width: 90%;
+    }
+
+    .buttons{
+        padding-top: 0px;
+    }
+
+    .triangles{
+        display:none;
+    }
+}

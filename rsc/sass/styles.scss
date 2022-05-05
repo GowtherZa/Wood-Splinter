@@ -1,0 +1,113 @@
+// colors -> 
+
+$primary :#E0CCB4;
+$warning: #EFDED4;
+$info:#907A6F;
+$success: #9F7C65;
+
+@import "./bulma.sass";
+
+
+p {
+    font-family: 'Montserrat-VariableFont_wght';
+    font-weight:normal;
+    font-style:normal;
+    font-size: 20px
+    }
+
+
+h1 {
+  font-family: 'JosefinSans-VariableFont_wght';
+  // font-weight:normal;
+  text-decoration: underline;
+  font-style:oblique;
+  font-size: 45px;
+}
+
+h2{
+  font-family: 'JosefinSans-VariableFont_wght' ;
+  font-weight:normal;
+  font-size: 35px;
+}
+
+.main-box{
+    width: 30%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.hero.has-background {
+    position: relative;
+    overflow: hidden;
+  }
+
+.hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+.hero-background.is-transparent {
+    opacity: 1;
+  }
+
+.hero-body{
+    z-index: 2;
+}
+
+.title{
+  font-size: 75px;
+}
+
+.triangles{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 35px 0 35px;
+  border-color: #dadcde transparent transparent transparent;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.66) 0 15px 50px 0;
+}
+
+.service-header{
+    font-size: 35px;
+}
+
+.flag{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.service-1{
+  width: 90%;
+  margin: auto;
+}
+
+.has-gradient{
+  background-image: linear-gradient(
+  225deg,
+  hsl(29deg 23% 63%) 0%,
+  hsl(30deg 21% 61%) 7%,
+  hsl(30deg 19% 59%) 14%,
+  hsl(31deg 18% 57%) 20%,
+  hsl(32deg 16% 55%) 27%,
+  hsl(32deg 15% 52%) 33%,
+  hsl(33deg 14% 50%) 40%,
+  hsl(33deg 14% 48%) 46%,
+  hsl(34deg 14% 46%) 52%,
+  hsl(35deg 14% 44%) 58%,
+  hsl(35deg 14% 42%) 64%,
+  hsl(36deg 14% 39%) 69%,
+  hsl(36deg 14% 37%) 75%,
+  hsl(37deg 14% 35%) 80%,
+  hsl(38deg 14% 33%) 88%
+);
+}
+
+
