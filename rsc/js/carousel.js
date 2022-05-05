@@ -189,3 +189,19 @@ document.addEventListener("DOMContentLoaded", function () {
     new Carousel(a);
   });
 });
+
+// 
+
+function resize() {
+  if (window.innerWidth <= 700){
+    carousel = document.getElementById("carousel")
+    carousel.className = "carousel is-1 carousel-animated carousel-animate-slide"
+    return
+  }
+  carousel.className = "carousel is-3 carousel-animated carousel-animate-slide"
+  
+}
+
+window.onresize = resize;
+
+// 

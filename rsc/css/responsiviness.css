@@ -1,18 +1,24 @@
 @media (max-width:900px) {
-    .main-box{
-        width: 90%;
-    }
-
     .buttons{
         padding-top: 0px;
     }
 
-    .triangles{
-        display:none;
+    img.frame{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-box{
+        width: 90%;
     }
 
     .p-card{
         width: 240px;
         height: 320px;
     }
+
+    .triangles{
+        display:none;
+    }
+
 }
