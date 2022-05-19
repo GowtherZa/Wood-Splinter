@@ -194,11 +194,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function resize() {
   if (window.innerWidth <= 700){
-    carousel = document.getElementById("carousel")
-    carousel.className = "carousel is-1 carousel-animated carousel-animate-slide"
+    carousel1 = document.querySelector("#carousel1")
+    carousel2 = document.querySelector("#carousel2")
+    carousel3 = document.querySelector("#carousel3")
+   
+    carousel1.className = "carousel is-1 carousel-animated carousel-animate-slide"
+    carousel2.className = "carousel is-1 carousel-animated carousel-animate-slide"
+    carousel3.className = "carousel is-1 carousel-animated carousel-animate-slide"
+    carousel4.className = "carousel is-1 carousel-animated carousel-animate-slide"
     return
   }
-  carousel.className = "carousel is-3 carousel-animated carousel-animate-slide"
+  carousel1.className = "carousel is-3 carousel-animated carousel-animate-slide"
+  carousel2.className = "carousel is-3 carousel-animated carousel-animate-slide"
+  carousel3.className = "carousel is-3 carousel-animated carousel-animate-slide"
+  carousel4.className = "carousel is-3 carousel-animated carousel-animate-slide"
   
 }
 
