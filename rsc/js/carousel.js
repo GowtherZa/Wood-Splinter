@@ -207,7 +207,7 @@ function resize() {
   carousel1.className = "carousel is-3 carousel-animated carousel-animate-slide"
   carousel2.className = "carousel is-3 carousel-animated carousel-animate-slide"
   carousel3.className = "carousel is-3 carousel-animated carousel-animate-slide"
-  carousel4.className = "carousel is-3 carousel-animated carousel-animate-slide"
+  carousel4.className = "carousel is-2 carousel-animated carousel-animate-slide"
   
 }
 
