@@ -20,7 +20,7 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-  
+
   .p-cardWrap:hover .p-cardInfo p {
     opacity: 1;
   }
