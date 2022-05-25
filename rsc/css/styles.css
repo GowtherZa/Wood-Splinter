@@ -10311,12 +10311,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   align-items: center;
 }
 
-.fixed-img {
-  width: 350px;
-  height: 450px;
-  margin-left: 150px;
-}
-
 .flag {
   padding: 5px;
 }
